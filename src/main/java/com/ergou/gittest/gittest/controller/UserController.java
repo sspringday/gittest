@@ -1,5 +1,6 @@
 package com.ergou.gittest.gittest.controller;
 
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserController {
+    @RequestMapping("/git")
     public String sayGit(){
         return  "hello git";
     }

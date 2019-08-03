@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @RequestMapping("/git")
     public String sayGit(){
+        System.out.println(1);
         return  "hello git";
     }
 

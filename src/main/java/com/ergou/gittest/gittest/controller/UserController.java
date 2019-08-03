@@ -14,4 +14,11 @@ public class UserController {
     public String sayGit(){
         return  "hello git";
     }
+
+    @RequestMapping("/git1")
+    public String sayGit1(){
+        return  "hello git1";
+    }
+
+
 }
